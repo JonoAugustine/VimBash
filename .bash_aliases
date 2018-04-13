@@ -8,13 +8,16 @@ alias jc='javac -Xlint:all'
 alias jr='java -enableassertions'
 alias make='clean; junitc Make.java;'
 alias clean='rm *.class;'
-# JUnit test file
+alias mktar='tar zcvf'
 alias junitc='javac -Xlint:all -classpath /usr/share/java/junit4.jar:.'
 alias junit='java -classpath /usr/share/java/junit4.jar:. org.junit.runner.JUnitCore'
+alias jbc='javac -cp jaybee.jar:.'
+alias jbr='java -jar jaybee.jar'
 
-#clear spell check
+#Spell check and Memes
 alias clr='clear'
 alias clera='clear'
 alias claer-'clear'
 alias cler='clear'
 alias clra='clear'
+alias brexit='exit'
